@@ -1,3 +1,4 @@
+import java.time.LocalDate;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -84,6 +85,64 @@ public class Main {
         System.out.println(number1 + "+" + number2 + "=" + answer + " " + "is " + (number1 + number2 == answer));*/
 
 
+        /*Scanner scanner = new Scanner(System.in);
+        System.out.println("Today is: " + LocalDate.now().getDayOfWeek());
+        int date = scanner.nextInt();
+        switch ((LocalDate.now().getDayOfWeek().getValue() + date) % 7) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 0:
+                System.out.println("Sunday");
+                break;
+        }*/
+
+        /*char ch = 'A';
+        System.out.println(ch);
+
+        ch = 65;
+        System.out.println(ch);
+
+        ch = '\u0041';
+        System.out.println(ch);
+        System.out.println(++ch);*/
+
+
+       /* int[] numbers = new int[10];
+        System.out.println(numbers);
+        System.out.println(numbers[2]);*/
+
+
+        /*int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int i = 0;
+        while (++i < arr.length) {
+            System.out.print(arr[i] + " ");
+
+        }
+        System.out.println(i);*/
+
+        int[] arr = {1,2,3,4,5,6,7,8,9,10};
+        int i = 0;
+        int b= arr
+                .length;
+        while ((b--)>0){
+            System.out.print(arr[b]);
+        }
 
     }
 }
