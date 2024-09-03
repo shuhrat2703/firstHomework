@@ -136,13 +136,92 @@ public class Main {
         }
         System.out.println(i);*/
 
-        int[] arr = {1,2,3,4,5,6,7,8,9,10};
+       /* int[] arr = {1,2,3,4,5,6,7,8,9,10};
         int i = 0;
         int b= arr
                 .length;
         while ((b--)>0){
             System.out.print(arr[b]);
+        }*/
+
+         /*   Scanner scanner = new Scanner(System.in);
+        System.out.println("Son kiriting: ");
+
+        int sum = 0;
+        while (scanner.hasNext()){
+            if (scanner.hasNextInt()){
+                sum += scanner.nextInt();
+            }else {
+                String input = scanner.next();
+                if (input.equalsIgnoreCase("done")){
+                    break;
+                }else {
+                    System.out.println("Wrong option!!! Try again");
+                }
+            }
         }
+        System.out.println(sum);*/
+
+
+        //    searchCharacterCount();
+/*private static void searchCharacterCount() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("So'z kiriting:");
+        String str = scanner.next();
+        System.out.println("Xarf kiriting:");
+        String next = scanner.next();
+        int count = 0;
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i)==next.charAt(0)){
+                count++;
+            }
+        }
+        System.out.println(count);
+    }*/
+
+
+       /* Scanner scanner = new Scanner(System.in);
+        System.out.println("So'z kiriting:");
+        String str = scanner.nextLine();
+        int upper = 0;
+        int lower = 0;
+        for (int i = 0; i < str.length(); i++) {
+            if (Character.isUpperCase(str.charAt(i))) {
+                upper++;
+            }
+            if (Character.isLowerCase(str.charAt(i))) {
+                lower++;
+            }
+        }
+        System.out.println("To upper case:" + upper);
+        System.out.println("To lower case:" + lower);*/
+
+
+
+       /* Scanner scanner = new Scanner(System.in);
+        int[] arr = new int[10];
+        for (int i = 0; i < args.length; i++) {
+            arr[i] = scanner.nextInt();
+
+        }
+        int count = 0;
+        for (int i = 1; i < 10; i++) {
+            if (arr[i]<arr[count]){
+                count = i;
+            }
+        }
+        System.out.println("Index:"+count);*/
+
+
+        /*for (int i = 0; i < 20; i++) {
+            for (int j = 0; j < 20; j++) {
+                System.out.println("Welcome to OOP course!!");
+            }
+        }*/
+
+
 
     }
+
+
 }
