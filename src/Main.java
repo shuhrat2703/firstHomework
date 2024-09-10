@@ -218,9 +218,6 @@ public class Main {
                 System.out.println("Welcome to OOP course!!");
             }
         }*/
-
-
-
     }
 
 
